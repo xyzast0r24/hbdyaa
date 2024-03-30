@@ -4,14 +4,15 @@ body{
 	align-content: center;
 	justify-content: center;
 	background-color: black;
-
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .card {
 	position: relative;
-	width: 300px;
-	height: 715px;
+	width: 200px;
+	height: 475px;
 	border: 10px solid #FF10F0;
-	margin: 150px auto;
+	margin: 60px auto 0 auto;
 	box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
 	background-image: linear-gradient(to bottom, rgba(255, 8, 239, 0.337), rgba(255, 255, 255, 0.285)), url("https://images.unsplash.com/photo-1530800919758-f1f7b1e67cd8?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 	background-position: center;
@@ -20,7 +21,7 @@ body{
 	background-color: #e6f0e6;
 }
 
-.card .text-container {
+.card .text-container {			
 	width: 80%;
 	height: 80%;
 	margin: auto;
@@ -32,12 +33,12 @@ body{
 
 .card .text-container #head {
 	font-family: "Farsan", cursive;
-	font-size: 2em;
+	font-size: 1.8em;
 	margin: 30px auto 30px auto;
 }
 
 .card p {
-	font-size: 1.1em;
+	font-size: 0.7em;
 	line-height: 1.4;
 	font-family: 'Nobile';
 	color: #331717;
@@ -117,3 +118,9 @@ canvas {
 	border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+	.card {
+	  width: 80%;
+	  height: auto;
+	}
+  }
