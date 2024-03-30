@@ -117,9 +117,3 @@ canvas {
 	border-radius: 5px;
 }
 
-@media (max-width: 768px) {
-	.card {
-	  width: 80%;
-	  height: auto;
-	}
-  }
