@@ -1,32 +1,4 @@
-body
-{
-    background: linear-gradient(233deg, #c500ff, #9800ff, #5500ff, #e700ff);
-    background-size: 800% 800%;
 
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 68%}
-    50%{background-position:100% 33%}
-    100%{background-position:0% 68%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 68%}
-    50%{background-position:100% 33%}
-    100%{background-position:0% 68%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 68%}
-    50%{background-position:100% 33%}
-    100%{background-position:0% 68%}
-}
 .card {
 	 position: relative;
 	 width: 300px;
