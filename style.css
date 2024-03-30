@@ -3,6 +3,7 @@ body{
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+	background-color: black;
 }
 .card {
 	position: relative;
