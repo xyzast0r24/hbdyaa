@@ -38,7 +38,7 @@ body{
 }
 
 .card p {
-	font-size: 1.1em;
+	font-size: 0.7em;
 	line-height: 1.4;
 	font-family: 'Nobile';
 	color: #331717;
@@ -123,4 +123,8 @@ canvas {
         width: 300px; /* Custom width for 1920x1080p resolution */
         height: 715px; /* Custom height for 1920x1080p resolution */
     }
+	.card p {
+		font-size: 1.1em;
+		
+	}
 }
